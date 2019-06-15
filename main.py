@@ -77,7 +77,7 @@ class Chat(Factory):
         Инициализация сервера
         """
         self.clients = []
-        self.logins = ['user']
+        self.logins = []
         print("*" * 10, "\nStart server \nCompleted [OK]")
 
     def startFactory(self):
